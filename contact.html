@@ -3,7 +3,7 @@
 
 <head>
     
-    <title>Dave Nelson About Me</title>
+    <title>Dave Nelson Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -12,12 +12,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <style>
-        body {
-  background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18673108_10211635686000281_3715872622033479892_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_oc=AQm2Gmx8eBf02aboYwmNE9Xr2A913xaTkqaw-FyZNwBsVjckprcReoeOrL3BZZFAFNs&_nc_ht=scontent-lga3-1.xx&oh=693427b6ac01d9c3488ea822af2a3222&oe=5ED25C7E') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+body {
+        background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18673108_10211635686000281_3715872622033479892_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_oc=AQm2Gmx8eBf02aboYwmNE9Xr2A913xaTkqaw-FyZNwBsVjckprcReoeOrL3BZZFAFNs&_nc_ht=scontent-lga3-1.xx&oh=693427b6ac01d9c3488ea822af2a3222&oe=5ED25C7E') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+@media (max-width: 800px) {
+  
+footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 }
     </style>
 
@@ -89,9 +104,13 @@
 
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Super Boring Footer</p>
-</div>
+<footer class="page-footer font-small bg-light static-top shadow">
+
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="index.html"> DaveNelsonBio.com</a>
+    </div>
+  
+</footer>
 
 
 </body>
