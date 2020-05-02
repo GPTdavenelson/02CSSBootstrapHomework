@@ -11,77 +11,101 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    <style>
+        body {
+  background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18673108_10211635686000281_3715872622033479892_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_oc=AQm2Gmx8eBf02aboYwmNE9Xr2A913xaTkqaw-FyZNwBsVjckprcReoeOrL3BZZFAFNs&_nc_ht=scontent-lga3-1.xx&oh=693427b6ac01d9c3488ea822af2a3222&oe=5ED25C7E') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+    </style>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    
-    <a class="navbar-brand" href="#">About Me</a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    
-    </button>
-    
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-        </ul>
-    </div>  
-  
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">Dave Nelson Bio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About Me
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 <div class="container">
     
     <div class="row">
-      
-        <div class="col-sm-4">
-            <h2>About Me</h2>
-            
-            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/p960x960/64499260_10217273360978632_3807049502116806656_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQkRHv4I5NmBjBwiXjjN26P2xftrPgpMwPNPeQwywu1cH7KQrKq-Ug5B9w8Zv6ah1bc&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=0df0b462b59fc46e0d7086be2627a587&oe=5EBF07D6" class= "img-thumbnail" class="img-responsive" alt="Bio Pic">
-            
-            <p>UX/UI Designer with Optum. 
-                <br>Lives in Colchester, CT. 
-                <br>Singer/Rhthym gutiarist in Junro. 
-                <br>Runs a recording studio called EOD Studios.
-            </p>
-            
-            <h3> Links</h3>
-            
-            <ul class="nav nav-pills nav-stacked">
-            <li class="active">
-                <strong>Email:</strong>
-                    <a href="mailto:gptdavenelson@gmail.com">gptdavenelson@gmail.com</a>
-            </li><br>
-            
-            <li>
-                <strong>Github:</strong>
-                    <a href="https://github.com/GPTdavenelson/uconn-bootcamp-repo1">Uconn Repo</a>
-            </li><br>
-            
-            <li>
-                <strong>Portfolio:</strong>
-                    <a href="www.behance.com/gptdavenelson">Behance</a>
-            </li>
-            </ul>
-            
-            <hr class="hidden-sm hidden-md hidden-lg">
         
-         </div>
+        <div class="card border-0 shadow my-5">
+            
+            <div class="card-body p-5">  
+                
+                <h2>About Me</h2>
 
+                <div class="col-sm-4">
+                    
+                    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/p960x960/64499260_10217273360978632_3807049502116806656_o.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQkRHv4I5NmBjBwiXjjN26P2xftrPgpMwPNPeQwywu1cH7KQrKq-Ug5B9w8Zv6ah1bc&_nc_ht=scontent-lga3-1.xx&_nc_tp=6&oh=0df0b462b59fc46e0d7086be2627a587&oe=5EBF07D6" class= "img-thumbnail" class="img-responsive" alt="Bio Pic">
+                        
+                </div>    
+                    
+                <div class="col-sm-4">
+                        
+                    <p>UX/UI Designer with Optum. 
+                            <br>Lives in Colchester, CT. 
+                            <br>Singer/Rhthym gutiarist in Junro. 
+                            <br>Runs a recording studio called EOD Studios.
+                    </p>
+                        
+                    <h3> Links</h3>
+                        
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active">
+                            <strong>Email:</strong>
+                                <a href="mailto:gptdavenelson@gmail.com">gptdavenelson@gmail.com</a>
+                        </li><br>
+                        
+                        <li>
+                            <strong>Github:</strong>
+                                <a href="https://github.com/GPTdavenelson/uconn-bootcamp-repo1">Uconn Repo</a>
+                        </li><br>
+                        
+                        <li>
+                            <strong>Portfolio:</strong>
+                                <a href="www.behance.com/gptdavenelson">Behance</a>
+                        </li>
+                    </ul>
+                        
+                </div>
+            
+            </div>
+
+        </div>
+    
     </div>
 
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Footer</p>
+    <p>Super Boring Footer</p>
 </div>
+
+
 </body>
 </html>
